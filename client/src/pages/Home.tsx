@@ -1,5 +1,7 @@
-﻿import { useState, useEffect, type FormEvent } from "react";
-import { fr, ar, enUS } from "date-fns/locale";
+import { useState, useEffect, type FormEvent } from "react";
+import { fr } from "date-fns/locale/fr";
+import { ar } from "date-fns/locale/ar";
+import { enUS } from "date-fns/locale/en-US";
 import {
   Dialog,
   DialogContent,
